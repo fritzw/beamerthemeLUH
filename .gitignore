@@ -1,0 +1,9 @@
+*~
+*.log
+*.aux
+*.nav
+*.snm
+*.toc
+*.dfb_latexmk
+*.snm
+*.synctex.gz
