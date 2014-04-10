@@ -4,6 +4,7 @@
 *.nav
 *.snm
 *.toc
-*.dfb_latexmk
+*.out
+*.fdb_latexmk
 *.snm
 *.synctex.gz
