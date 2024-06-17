@@ -28,7 +28,7 @@
     \node[right, text depth=0, text width=\paperwidth-\beamer@leftmargin-\beamer@rightmargin, inner sep=0]
       at (\beamer@leftmargin, \LUHFooterHeight/2)
       {
-        {\usebeamercolor[fg]{author in head/foot}\usebeamerfont{author in head/foot}\scalebox{\ScaleAuthor}{\insertauthor}}%
+        {\usebeamercolor[fg]{author in head/foot}\usebeamerfont{author in head/foot}\scalebox{\ScaleAuthor}{\ifnum\thepage>1\insertshortauthor\else\insertauthor\fi}}%
         \ifnum\thepage>1\relax%
           {\usebeamercolor{title in head/foot}\usebeamerfont{title in head/foot}\hspace{2em}\insertshorttitle}%
           {\usebeamercolor{date in head/foot}\usebeamerfont{date in head/foot}\hspace{2em}\insertshortdate}%
